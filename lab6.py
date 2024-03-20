@@ -1,6 +1,6 @@
 
-# Chaitanya Rana
-# Ian Kalra
+# Chaitanya Rana (Collaborator)
+# Ian Kalra (Owner of Repository)
 
 def encode(password):
     result = ''
