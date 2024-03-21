@@ -17,12 +17,12 @@ def encode(password):
     return result
 
 
-def decode(password):
-    orginal_password = ""
-    for digit in password:
-        if digit.isdigit():
-            original_password += str((int(digit) - 3) % 10)
-    return original_password
+def decode(encodedPassword):
+    decodedPass = ""
+    for char in encodedPassword:
+        decodedPass += str(int(char)-3)
+    return decodedPass
+
 
 def main():
     var = ''
